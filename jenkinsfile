@@ -22,9 +22,14 @@ pipeline {
                 echo "Built the project"
             }
         }
+        stage('Test') {
+            steps {
+                sh "dotnet test --no-build --verbosity normal" 
+                echo "Ran the tests"
+            }
+        }
         stage('Run') {
             steps {
-                // Specify the correct path to the .csproj file
                 sh "dotnet run --project appDude/appDude.csproj"
                 echo "Ran the project"
             }
