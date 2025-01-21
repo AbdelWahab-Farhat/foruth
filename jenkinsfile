@@ -34,6 +34,12 @@ pipeline {
                 echo "Ran the project"
             }
         }
+        stage('Publish') {
+            steps {
+                sh "dotnet publish -c Release -o ./publish"
+                echo "Published the project"
+            }
+        }
     }
     post {
         success {
