@@ -1,0 +1,15 @@
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.AssemblyInfoInputs.cache
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.AssemblyInfo.cs
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.csproj.CoreCompileInputs.cache
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.sourcelink.json
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/bin/Debug/net9.0/appDude
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/bin/Debug/net9.0/appDude.deps.json
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/bin/Debug/net9.0/appDude.runtimeconfig.json
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/bin/Debug/net9.0/appDude.dll
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/bin/Debug/net9.0/appDude.pdb
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.dll
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/refint/appDude.dll
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.pdb
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/appDude.genruntimeconfig.cache
+/Users/abdelwahabfarhat/Desktop/foruth/appDude/obj/Debug/net9.0/ref/appDude.dll
