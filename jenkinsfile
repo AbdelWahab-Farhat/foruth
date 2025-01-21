@@ -24,7 +24,8 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh "dotnet run"
+                // Specify the correct path to the .csproj file
+                sh "dotnet run --project appDude/appDude.csproj"
                 echo "Ran the project"
             }
         }
