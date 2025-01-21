@@ -12,4 +12,5 @@ System.Console.WriteLine("The elements in the Stack are: " + myStack.Count);
 foreach (var item in myStack)
 {
     Console.WriteLine(item);
+    System.Console.WriteLine("The elements in the Stack are: " + myStack.Count);
 }
