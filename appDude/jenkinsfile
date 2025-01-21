@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PATH = "/bin:/usr/bin:/opt/homebrew/bin:$PATH"  
+        PATH = "/bin:/usr/bin:/opt/homebrew/bin:$PATH"
     }
     stages {
         stage('Checkout') {
@@ -10,32 +10,31 @@ pipeline {
                 echo "Checked out the code"
             }
         }
-        stage ('Restore') {
+        stage('Restore') {
             steps {
-                    sh "dotnet restore"
-                    echo "Restored the dependencies"
+                sh "dotnet restore"
+                echo "Restored the dependencies"
             }
         }
-        stage ('Build') {
+        stage('Build') {
             steps {
                 sh "dotnet build"
                 echo "Built the project"
             }
         }
-        stage ('run') {
+        stage('Run') {
             steps {
                 sh "dotnet run"
                 echo "Ran the project"
             }
         }
     }
-}
-post 
-{
-    success {
-        echo "The build was successful!"
-    }
-    failure {
-        echo "The build failed!"
+    post {
+        success {
+            echo "The build was successful!"
+        }
+        failure {
+            echo "The build failed!"
+        }
     }
 }
